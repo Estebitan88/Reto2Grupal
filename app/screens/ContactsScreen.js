@@ -6,7 +6,7 @@ export const Contacts = ({navigation}) => {
         <Button
             title='HOME'
             onPress={()=>{
-                navigation.navigate('WellcomeSandra');
+                navigation.navigate('WellcomeSandraI');
             }}
         />
     </View>
