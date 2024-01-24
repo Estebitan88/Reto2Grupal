@@ -12,9 +12,9 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name='WellcomeSandraI' component={Home} />
-        <Stack.Screen name='CallNumber' component={Contacts} />
-        <Stack.Screen name='ProductNavigation' component={Product}/>
+        <Stack.Screen name="WellcomeSandra" component={Home} />
+        <Stack.Screen name="PhoneNumberNav" component={Contacts} />
+        <Stack.Screen name="ProductNavigation" component={Product} />
       </Stack.Navigator>
     </NavigationContainer>
   );
